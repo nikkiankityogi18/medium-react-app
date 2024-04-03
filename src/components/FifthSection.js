@@ -25,7 +25,7 @@ const FifthSection = () => {
             <p className="sm:text-start text-center sm:py-6 py-3">{leftPara}</p>
           </div>
           <div className="flex flex-1 flex-col sm:ml-10 py-6 sm:items-start items-center">
-            <h3 className="sm:text-4xl text-2xl sm:text-start text-center font-seri">
+            <h3 className="sm:text-4xl text-2xl sm:text-start text-center font-serif">
               {rightTitle}
             </h3>
             <img
