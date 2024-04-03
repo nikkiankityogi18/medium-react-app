@@ -25,7 +25,7 @@ const Hearder = () => {
 
             <div class="sm:hidden">
               <button
-                class="navbar-burger flex items-center text-blue-600"
+                class="navbar-burger flex items-center text-blue-600 p-1"
                 onClick={() => setIsToggled(!isToggled)}
               >
                 <svg
