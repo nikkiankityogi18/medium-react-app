@@ -6,7 +6,9 @@ const ForthSection = () => {
     <div className="bg-darkGreen border-y-2 border-black">
       <div className="max-w-2xl m-auto px-10">
         <div className="flex flex-col justify-center items-center py-10">
-          <h3 className="font-serif text-7xl text-center">{title}</h3>
+          <h3 className="font-serif lg:text-7xl sm:text-5xl text-4xl text-center">
+            {title}
+          </h3>
           <p className="text-center my-6">{paraText}</p>
           <div className="border border-white text-white rounded-full px-4 py-2 my-4">
             <button>{btnText}</button>

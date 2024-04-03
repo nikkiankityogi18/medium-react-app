@@ -13,7 +13,7 @@ const Hearder = () => {
           <div className="h-full flex items-center">
             <ul className="flex items-center mr-2 text-sm">
               {menuItems.map((item) => (
-                <li className="py-2 px-2">{item}</li>
+                <li className="sm:flex hidden py-2 px-2">{item}</li>
               ))}
               <li className="py-2 px-4 ml-6 bg-black text-white rounded-3xl font-medium">
                 {btnText}
